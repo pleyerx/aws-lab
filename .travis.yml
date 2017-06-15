@@ -13,7 +13,7 @@ deploy:
       secure: $aws_secure_key
     local_dir: dpl_cd_upload
     skip_cleanup: true
-    region: us-esat-2
+    region: us-east-2
     on:
       branch: master
     bucket: "yn-test-codedeploy"
